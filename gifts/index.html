@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gift Center - Example Portfolio Site</title>
+		<style>
+			@import url("home.css");
+		</style>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<small>Logo</small>
+			<div class="burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<nav class="navbar">
+				<div class="site-nav">
+					<a href="https://giftportfoliosite.netlify.app" class="nav-link">Home</a>
+					<a href="" class="nav-link" style="color: #250E27;">Gifts</a>
+					<a href="https://giftportfoliosite-friends.netlify.app/" class="nav-link">Friends</a>
+				</div>
+				<div class="log">
+					<a href="" class="log-link sign-up">Sign up</a>
+					<a href="" class="log-link">Log in</a>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<form>
+				<fieldset class="screen s1">
+					<h1>Let's send some <span style="color: #FC3266">gifts</span></h1>
+					<nav class="nav" id="nav1">
+						<div>
+							<a class="main-link" style="color: #FC3266;">Sending</a>
+							<span>></span>
+							<a href="#nav2">Informations</a>
+							<span>></span>
+							<a href="#nav3">Summary</a>
+						</div>
+					</nav>
+				
+					<div class="username-div form-div">
+						<label for="username">Send a gift to</label>
+						<input type="text" name="forWho" id="username" placeholder="Type username" />
+					</div>
+					<div class="category-div form-div">
+						<label for="category">Select gift category</label>
+						<div class="category-grid">
+							<ul>
+								<li>Art</li>
+								<li>Education</li>
+								<li>Gaming</li>
+								<li>Politics</li>
+								<li>RTV</li>
+								<li>Food</li>
+								<li>Movies</li>
+								<li>Jewellery</li>
+								<li>Sport</li>
+								<li>Music</li>
+								<li>Setup</li>
+								<li>Furniture</li>
+								<li>Instruments</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gift-name-div form-div">
+						<label for="gift-name">Type gift name</label>
+						<input type="text" name="gift-name" id="gift-name" placeholder="Gift name" />
+					</div>
+					<img class="s1-arrow" src="arrow.svg" type="svg" alt="" />
+				</fieldset>
+				<div class="s2 screen">
+					<nav class="nav" id="nav2">
+						<div>
+							<a href="#nav1">Sending</a>
+							<span>></span>
+							<a class="main-link" style="color: #FC3266;">Informations</a>
+							<span>></span>
+							<a href="#nav3">Summary</a>
+						</div>
+					</nav>
+					<div class="your-nickname-div form-div">
+						<label for="your-nickname">Your nickname</label>
+						<input type="text" name="sender-nick" id="your-nickname" placeholder="Type nickname">
+					</div>
+					<div class="avatar-div form-div">
+						<label for="avatar">Select your avatar</label>
+						<div class="avatar-flex">
+							<ul>
+								<li><img class="avatar-image" src="avatar-images/1.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/4.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/3.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/4.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/5.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/1.png" type="png" alt="" /></li>
+								<li><img class="avatar-image" src="avatar-images/4.png" type="png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+					<div class="description-div form-div">
+						<label for="description">Set a gift description</label>
+						<textarea name="description" id="description" placeholder="Type your gift description..."></textarea>
+					</div>
+					<img class="s2-arrow" src="arrow.svg" type="svg" alt="" />
+				</div>
+				<fieldset class="s3 screen">
+					<nav class="nav" id="nav3">
+						<div>
+							<a href="#nav1">Sending</a>
+							<span>></span>
+							<a href="#nav2">Informations</a>
+							<span>></span>
+							<a class="main-link" style="color: #FC3266;">Summary</a>
+						</div>
+					</nav>
+					<h1>Are you sure you want to gift a <span style="color: #FC3266;">receiver nick?</span></h1>
+					<h2>The receiver will get information about</h2>
+					<div class="summary-grid form-div">
+						<h3>Your name</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+						<h3>Your surname</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+						<h3>Your nickname</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+						<h3>Your avatar</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+						<h3>Gifting date</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+						<h3>Price of the product</h3><small>Hide<img class="hide-eye" src="hide-eye.png" type="png" alt="" /></small>
+					</div>
+					<div class="buttons-div form-div">
+						<button type="reset">Cancel</button>
+						<button type="submit">Send gift<img class="gift-icon" src="gift-icon.svg" type="svg" alt=""></button>
+					</div>
+				</fieldset>
+			</form>
+			<footer class="footer">
+				<h1>Designed and deployed by <span style="color: #FC3266;">us.</span></h1>
+			</footer>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>
