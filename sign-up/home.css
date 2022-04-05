@@ -187,9 +187,10 @@ section {
 
 .red-dots1 {
 	position: absolute;
-		top: 20%;
+		top: 25%;
 		left: -4rem;
 	z-index: -1;
+	max-width: 3rem;
 }
 
 .red-dots2 {
