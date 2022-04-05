@@ -133,7 +133,7 @@ section {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .s1 h1 {
-	font-size: 2.3rem;
+	font-size: 2.2rem;
 	color: #250E27;
 	font-weight: 800;
 	margin-bottom: 0.5em;
@@ -152,8 +152,8 @@ section {
 }
 
 .form-div input {
-	font-size: 1.2rem;
-	padding: 1em 1.2em;
+	font-size: 1.3rem;
+	padding: 1.1em 1.2em;
 	border: none;
 	border-radius: 0.5rem;
 	background: #FDEFFF;
