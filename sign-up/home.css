@@ -157,11 +157,11 @@ section {
 	border: none;
 	border-radius: 0.5rem;
 	background: #FDEFFF;
-	color: #F086FD;
+	color: #e666e8;
 }
 
 .form-div input::placeholder {
-	color: #F9CAFF;
+	color: #e487e6;
 }
 
 .form-div button {
