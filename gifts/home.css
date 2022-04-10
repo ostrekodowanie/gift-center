@@ -507,16 +507,16 @@ body {
 
 	/*other desktop*/
 	.s1 h1 {
-		font-size: 5rem;
+		font-size: 4.2rem;
 	}
 
 	.nav * {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 	}
 
 	.main-link {
-		font-size: 2.7rem;
+		font-size: 2.5rem;
 	}
 
 	.form-div {
@@ -524,12 +524,12 @@ body {
 	}
 
 	.form-div input {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		max-width: 40%;
 	}
 
 	.form-div textarea {
-		font-size: 1.7rem;
+		font-size: 1.4rem;
 		min-height: 3in;
 	}
 
@@ -552,8 +552,8 @@ body {
 	}
 
 	.avatar-flex ul li {
-		width: 12rem;
-		height: 12rem;
+		width: 10rem;
+		height: 10rem;
 	}
 
 	.avatar-image {
@@ -571,10 +571,12 @@ body {
 	/*summary*/
 	.s3 h1 {
 		font-size: 3rem;
+		margin-bottom: 1.2em;
 	}
 
 	.s3 h2 {
 		font-size: 2rem;
+		margin-block: 0 1.2em;
 	}
 
 	.s3 h3 {
@@ -586,6 +588,7 @@ body {
 	}
 
 	.buttons-div {
+		margin-top: 0;
 		gap: 2em;
 		flex-direction: row;
 		justify-content: flex-end;
