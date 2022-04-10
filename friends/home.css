@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-	height: 5rem;
+	height: 5.5rem;
 	padding: 0 8vw;
 	flex-shrink: 0;
 	background: #FEF6FF;
@@ -451,7 +451,7 @@ body {
 		min-height: max(88vh, 45rem);
 	}
 	.header {
-		height: max(12vh, 6rem);
+		height: 7rem;
 	}
 	.site-nav {
 		gap: 4em;
