@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-	height: 11vh;
+	height: 5.5rem;
 	padding: 0 8vw;
 	flex-shrink: 0;
 	background: #FEF6FF;
@@ -297,7 +297,7 @@ section {
 		z-index: 1;
 	}
 	.header {
-		height: max(12vh, 6rem);
+		height: 7rem;
 	}
 	.site-nav {
 		gap: 4em;
